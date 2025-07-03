@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.form-container, .welcome-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00c6ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0072ff;
+}
